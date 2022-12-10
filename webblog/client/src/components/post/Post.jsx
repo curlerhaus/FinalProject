@@ -1,21 +1,29 @@
 import './post.css'
+import {Link} from 'react-router-dom'
 
-export default function post() {
+export default function Post({post}) {
   return (
     <div className='post'>
-        <img className='postImg' src="https://placedog.net/500" alt="testing" />
+      {post.photo && (
+
+        <img className='postImg' src={post.photo} alt="testing" />
+      )}
         <div className="postInfo">
             <div className="postCats">
-                <span className="postCat">Music</span>
-                <span className="postCat">Life</span>
+              {post.categories.map((c)=>(
+                <span className='postCat'>{c.name}</span>
+              ))}
             </div>
+            <Link to={`/post/${post._id}`} className='link'>
             <span className="postTitle">
-                Post Title 
+                {post.title}
             </span>
+
+            </Link>
             <hr />
-            <span className="postDate">1 hour ago</span>
+            <span className="postDate">{new Date(post.createdAt).toDateString()}</span>
         </div>
-        <p className="postDesc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic soluta ab sunt cum optio veritatis sint ullam, dicta deserunt amet rerum quia doloribus quaerat sit pariatur temporibus quidem vitae velit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores nihil quas perferendis quibusdam at! Sed qui quos, quam porro inventore, eius consequatur, illum pariatur reiciendis impedit corporis harum perspiciatis dignissimos?</p>
+        <p className="postDesc">{post.desc}</p>
     </div>
   )
 }
