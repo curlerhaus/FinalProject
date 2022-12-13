@@ -1,5 +1,6 @@
 .write {
     padding-top: 50px;
+    font-family: 'Source Code Pro';
 }
 
 .writeImg {
@@ -37,6 +38,7 @@
     border: none;
     padding: 20px;
     width: 70vh;
+    font: 'Source Code Pro';
 }
 
 .writeInput:focus {

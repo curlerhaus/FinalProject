@@ -5,9 +5,10 @@ import Settings from "./pages/settings/Settings";
 import Single from "./pages/single/Single";
 import Write from "./pages/write/Write";
 import Register from "./pages/register/Register";
-import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import React, { useContext } from "react";
 import { Context } from "./context/Context";
+import About from "./pages/about/About";
 
 function App() {
   const { user } = useContext(Context);
@@ -16,6 +17,7 @@ function App() {
       <TopBar />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
         <Route path="/register" element={user ? <Home /> : <Register />} />
         <Route path="/write" element={user ? <Write /> : <Register />} />
         <Route path="/login" element={user ? <Home /> : <Login />} />
