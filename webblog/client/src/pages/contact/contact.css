@@ -1,0 +1,56 @@
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Source Code Pro';
+}
+
+.contactTitle {
+    font-size: 40px;
+}
+
+.contactButtons {
+    flex-direction: column;
+}
+
+.contactForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactForm>label {
+    margin: 10px 0;
+}
+
+.contactInput {
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-bottom: 1px solid;
+}
+
+.contactButton {
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: rgb(75, 75, 75);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+.loginRegisterButton {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: rgb(75, 75, 75);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+
+}
