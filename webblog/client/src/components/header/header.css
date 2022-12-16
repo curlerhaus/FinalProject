@@ -1,13 +1,14 @@
 .header {
-    margin-top: 60px;
+    margin-top: 20px;
+    /* background-color: rgb(212, 210, 210); */
 }
 
 .headerTitles {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 'Lora', serif;
-    color: #444
+    font-family: 'Source Code Pro';
+    color: #444;
 }
 
 .headerTitleSm {
@@ -20,11 +21,12 @@
     position: absolute;
     top: 20%;
     font-size: 100px;
+    text-align: center;
 }
 
-.headerImage {
+/* .headerImage {
     width: 100%;
     height: 100px;
     margin-top: 80px;
     object-fit: cover;
-}
+} */
