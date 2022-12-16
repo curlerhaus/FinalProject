@@ -5,7 +5,6 @@ const { json } = require("express");
 
 //REGISTER
 router.post("/register", async (req, res) => {
-  console.log("this is the req: ", req.body);
   try {
     const salt = await bcrypt.genSalt(10);
     const hashedPass = await bcrypt.hash(req.body.password, salt);
