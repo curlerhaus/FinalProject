@@ -5,9 +5,7 @@ export default function Contact() {
   return (
     <>
       <div className="contactForm">
-        <span className="contactTitle">
-          Send e-mail to someone@example.com:
-        </span>
+        <span className="contactTitle">Send e-mail:</span>
 
         <form
           action="mailto:someone@example.com?subject=Tribute Feedback"
