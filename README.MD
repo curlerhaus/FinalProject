@@ -4,7 +4,7 @@
 A simple blog site. You can create an account and then create posts and upload pictures. 
 
 # Demo
-![Screenshot](./webblog/client/public/Screenshot.png)
+![Screenshot](./client/public/Screenshot.png)
 
 # Technologies
 Front End:
@@ -36,6 +36,7 @@ Back end:
 1. Create mp3 file uploader
 2. Create mp3 file player
 3. Create podcast RSS feed
+4. Create search function
 
 # Issues
 1. fix social media links on topbar.
