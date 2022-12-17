@@ -1,4 +1,4 @@
-### Final Project - Blog website
+# **Final Project - Blog website**
 
 # Description
 A simple blog site. You can create an account and create posts. 
