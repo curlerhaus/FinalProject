@@ -4,7 +4,7 @@
 A simple blog site. You can create an account and create posts. 
 
 # Demo
-![Screenshot](./client/public/Screenshot.png)
+![Screenshot](./webblog/client/public/Screenshot.png)
 
 # Technologies
 Front End:
