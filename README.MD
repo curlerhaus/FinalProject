@@ -32,6 +32,10 @@ Back end:
 3. use start command nodemon on client and api folders to start the front end and back end.
 4. go to http://localhost:3000 to visit the homepage.
 
+# To Do
+1. Create mp3 file uploader
+2. Create mp3 file player
+3. Create podcast RSS feed
 
 # Issues
 1. fix social media links on topbar.
