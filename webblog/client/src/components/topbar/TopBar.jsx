@@ -25,7 +25,7 @@ export default function TopBar() {
                   LOGIN
                 </Link>
               </li>
-              <li>
+              <li className="topListItem">
                 <Link className="link" to="/register">
                   REGISTER
                 </Link>

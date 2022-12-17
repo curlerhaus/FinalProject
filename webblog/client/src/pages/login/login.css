@@ -44,14 +44,11 @@
 }
 
 .loginRegisterButton {
-    position: absolute;
-    top: 60px;
-    right: 20px;
     background-color: rgb(75, 75, 75);
     color: white;
     border: none;
     border-radius: 10px;
     padding: 10px;
     cursor: pointer;
-
+    margin-top: 20px;
 }
