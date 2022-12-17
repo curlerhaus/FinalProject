@@ -39,5 +39,5 @@
     ]
   },
   "proxy": "http://localhost:3003/api/",
-  "engines": {"node": "17.7.1"}
+  "engine": {"node": "17.7.1"}
 }
