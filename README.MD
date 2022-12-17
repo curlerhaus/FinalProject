@@ -1,7 +1,7 @@
 # **Final Project - Blog website**
 
 # Description
-A simple blog site. You can create an account and create posts. 
+A simple blog site. You can create an account and then create posts and upload pictures. 
 
 # Demo
 ![Screenshot](./webblog/client/public/Screenshot.png)
